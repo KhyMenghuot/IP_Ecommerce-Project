@@ -8,4 +8,9 @@ const app = createApp(App)
 
 app.use(router)
 
-app.mount('#app')
+//app.mount('#app')// is use simple
+
+//get from ant design 
+import antd from 'ant-design-vue'
+import "ant-design-vue/dist/antd.css";
+app.use(antd).mount('#app') // for this is use both in "antd"
