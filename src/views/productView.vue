@@ -6,189 +6,177 @@
     </div>
     
     <div class="body">
-      <div class="feature">
-      <h1>Feature Message</h1>
-    </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/images1.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">599$</div>
-          </div>
-          <a href="#">More detail</a>
+      
+        <div class="feature">
+        <h1>Feature Message</h1>
         </div>
-        <div class="column">
-          <img src="./img/image2.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">899$</div>
+        <div class="row " >
+          <div class="col-xl-3 col-md-6 col-12 "  v-for=" pro in products" key="product.name">
+            <div class="bg-light" style=" text-align: center; margin: 3px; ">
+              <img :src="pro.image">
+            <div class="des">
+              <div class="name" >{{ pro.name }}</div>
+              <div class="price" >{{pro.price}}$</div>
+            </div>
+            <button @click="onDetail(pro)" class="btn btn-primary"  >More detail</button>
+            </div>
+           
           </div>
-          <a href="#">More detail</a>
         </div>
-        <div class="column">
-          <img src="./img/image3.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">799$</div>
-          </div>
-          <a href="#">More detail</a>
+        <div class="feature">
+        <h1>Upcomming Message</h1>
         </div>
-        <div class="column">
-          <img src="./img/images4.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
+        <div class="row " >
+          <div class="col-xl-3 col-md-6 col-12 "  v-for=" pro in products" key="product.name">
+            <div class="bg-light" style=" text-align: center; margin: 3px; ">
+              <img :src="pro.image">
+            <div class="des">
+              <div class="name" >{{ pro.name }}</div>
+              <div class="price" >{{pro.price}}$</div>
+            </div>
+            <button @click="onDetail(pro)" class="btn btn-primary"  >More detail</button>
+            </div>
+           
           </div>
-          <a href="#">More detail</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/images5.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">499$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/image6.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/image7.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/image8.webp" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">799$</div>
-          </div>
-          <a href="#">More detail</a>
         </div>
       </div>
     </div>
-    <div class="body">
-      <div class="feature">
-      <h1>Upcomming product</h1>
-    </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/images1.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">599$</div>
+    <footer> 
+      <div class="footer_row">
+        <div class="logo">
+          <div class="logo_pic">
+            <img src="./img/logo.png" alt="">
           </div>
-          <a href="#">More detail</a>
+          <h1 style="color: aliceblue;">KMHPC</h1>
+          
         </div>
-        <div class="column">
-          <img src="./img/image2.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">899$</div>
-          </div>
-          <a href="#">More detail</a>
+        <div class="More">
+          <h1>More product</h1>
+          <p><a href="#">Asus</a></p>
+          <p><a href="#">Lanovo</a></p>
+          <p><a href="#">Dell</a></p>
+          <p><a href="#">MSI</a></p>
+          
+
         </div>
-        <div class="column">
-          <img src="./img/image3.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">799$</div>
-          </div>
-          <a href="#">More detail</a>
+        <div class="contact">
+          <h1>Contact</h1>
+          <p>khymenghuot@gmail.com</p>
+          <p>phone number: 015201639</p>
+          <p>telegram: khymenghuot</p>
         </div>
-        <div class="column">
-          <img src="./img/images4.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
+
       </div>
-      <div class="row">
-        <div class="column">
-          <img src="./img/images5.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">499$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/image6.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/image8.webp" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">699$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-        <div class="column">
-          <img src="./img/product6.jpg" alt="">
-          <div class="des">
-            <div class="name">Asuz</div>
-            <div class="price">799$</div>
-          </div>
-          <a href="#">More detail</a>
-        </div>
-      </div>
-    </div>
+    </footer> 
     <!-- footer -->
-    <footer>
-    <div class="footer_row">
-      <div class="logo">
-        <div class="logo_pic">
-          <img src="./img/logo.png" alt="">
-        </div>
-        <h1 style="color: aliceblue;">KMHPC</h1>
-        
-      </div>
-      <div class="More">
-        <h1>More product</h1>
-        <p><a href="#">Asus</a></p>
-        <p><a href="#">Lanovo</a></p>
-        <p><a href="#">Dell</a></p>
-        <p><a href="#">MSI</a></p>
-        
-
-      </div>
-      <div class="contact">
-        <h1>Contact</h1>
-        <p>khymenghuot@gmail.com</p>
-        <p>phone number: 015201639</p>
-        <p>telegram: khymenghuot</p>
-      </div>
-
-    </div>
-  </footer>
-  </div>
+    
+    
+  
 </template>
-<style>
-.container{
-  width: 1024px;
-  height: 100%;
-  background-color: rgb(240, 139, 139);
-  margin: auto;
+<script>
+  export default {
+    data() {
+    return {
+      
+      products: [
+      
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail31.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail32.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail33.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail34.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei'
 
+        }
+        ,
+       
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail31.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail32.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail33.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail34.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei'
+       
+
+        }
+       
+       
+      ],
+
+    }
+    
+  },
+  methods: {
+    onDetail(product) {
+      // const data = JSON.stringify(product);
+      this.$router.push({ path: "/detail", query: {
+        name: product.name,
+        price: product.price,
+        image: product.image,
+        des: product.des,
+      } });
+      console.log('clicked...'+ product);
+
+    }
+  }
+  }
+  
+  
+</script>
+<style>
+template{
+  width: 100%;
+  background-color: rgb(240, 139, 139);
+  
 }
+.container{
+  background-color: rgb(240, 139, 139);
+}
+.row{
+  margin: 3px;
+  width: 100%;
+}
+
+
+
 .head{
   height: 400px;
   width: 100%; 
@@ -206,46 +194,7 @@
   text-align: center;
 
   padding: 10px;
-  background-color: rgb(168, 152, 152);
-}
-.feature h1{
-  color: blue;
-}
-.body{
-  height: 100%;
-  
-}
-.row{
-  display: flex;
-
-}
-.column{
-  width: 24.5%;
-    
-   margin: 5px;
-   padding: 5px;
-  background-color: white;
-}
-.column img{
-  width: 100%;
-  height: 65%;
-}
-.des{
-  width: 80%;
-  display: flex;
-  margin: flex-start;
-  justify-content: space-between;
-  margin: 10px;
-  padding: 10px;
-}
-.name{
-  margin: flex-start;
-  font-size: 40px;
-}
-.price{
-  margin: flex-end;
-  font-size: 40px;
-  color: red;
+  background-color: rgb(82, 22, 223);
 }
 
 /*footer*/
@@ -265,13 +214,7 @@
   height: 100px;
   border-radius: 100px;
 }
-@media (min-width: 1024px) {
-  .home {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
 </style>
 
 

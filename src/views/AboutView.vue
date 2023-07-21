@@ -1,87 +1,84 @@
 <template>
-  <div class="container">
-    <div class="head">
-      <img src="./img/article_cover.jpg" alt="">
-    </div>
-  
-  <div class="user">
-    <div class="user1">Boy</div>
-    <div class="user2">Girl</div>
-  </div>
-  <div class="box-body">
-    <div class="box1">
-      <div class="lift">
-        <div class="des">
-          
-            <ul>
-              <li>ASUS Vivobook Go 15 OLED (E1504F)</li>
-              <li>Windows 11 Home - ASUS recommends Windows 11 Pro for business</li>
-              <li> Up to Intel® Core™ i9 HX55 processor</li>
-              <li>Up to NVIDIA® GeForce RTX 4070 GPU </li>
-              <li> Up to 3.2K 120 Hz OLED display</li>
-              <li> Up to 64 GB DDR5 with dual SO-DIMM</li>
-              <li> Up to 2 TB SSD with one M.2 Slot</li>
-              <li> ASUS IceCool Pro thermal technology</li>
-              <li> Dual Thunderbolt™ 4 for up to 40Mbps</li>
-            </ul>
-        </div>
-      </div>
-      <div class="right">
-        <div class="img"> <img src="./img/product1.jpg" alt=""></div>
-        <div class="price"><p>price: 699$</p></div>
-        <button>Buy New</button>
+   <div class="container ">
+        
+        <div class="profile ">
+            <img src="./img/cover shop.jpg " alt=" "> 
+            
+        </div> 
+        <h1 class="name "> KMH Smart shop</h1>
+        
+        <div class="container descript ">
+            <div class="container ">
+                <h2>Video review</h2>
+                <p>New model function is the best</p>
+                <div class="embed-responsive embed-responsive-16by9 ">
+                    <iframe width="100%" height="600px" src="https://www.youtube.com/embed/rzfZ7kNm_uc" title="Best Desktop Computer of 2022 | The 5 Best Desktop PCs Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            
+            </div>
+        </div>  
+   </div> 
+        <div class="container ">
+            <div class="row ">
+                <!-- <div class="col-xl-6 col-md-6 col-12 box1 " v-for=" pro in products" key="product.name>
+                   
+                  <img :src="pro.image">
+                  
+                </div> -->
+                <div class="col-xl-6 col-md-6 col-12 box1 ">
+                    <div class="detail ">
+                        <p>Apple iPhone 14 Pro ; Size, 6.1 inches, 91.7 cm2 (~87.0% screen-to-body ratio) ; Resolution, 1179 x 2556 pixels, 19.5:9 ratio (~460 ppi density) ; Protection ...
+                            Internal: 128GB 6GB RAM, 256GB 6GB RAM, ...
+                            Battery: Type
+                            GPS: Yes, with dual-band A-GPS, GLONASS, ...
+                            Battery life: Endurance rating 86h
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            </div> 
+        <hr style="font: size 30px; ">
 
-      </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xl-12 col-md-12 col-12 ">
+                    <h2>2007 – Eee PC – An Ultra-Portable Laptop</h2>
+                    <p style="font-size: 25px; ">
+                    
+                    The Eee PC was launched in 2007 and was one of the most popular ultraportable laptops ever made. 
+                    It was granted numerous awards for its efficient design and was one of the company’s best-selling 
+                    products for a short period of time. Unfortunately, the growing popularity
+                    of tablets spelled the death of the Eee PC in 2013.
+                    2012 – Google Nexus – An Asus Tablet
 
-    </div>
-    <div class="box1">
-      <div class="lift">
-        <div class="des">
-          
-            <ul>
-              <li>ASUS Vivobook Pro 16X OLED (M7601, AMD Ryzen 6000 Series)</li>
-              <li>Windows 11 Pro - ASUS recommends Windows 11 Pro for business</li>
-              <li>Up to AMD Ryzen™ 9 6900HX Processor</li>
-              <li>Up to NVIDIA® GeForce® RTX3060</li>
-              <li>3.2K 120Hz 0.2ms OLED display</li>
-              <li>Up to DDR5 32GB 4800MHz</li>
-            </ul>
-        </div>
-      </div>
-      <div class="right">
-        <div class="img"> <img src="./img/image3.jpg" alt=""></div>
-        <div class="price"><p>price: 699$</p></div>
-        <button>Buy New</button>
 
-      </div>
+                    </p>
+                    <h2>2012 – Google Nexus – An Asus Tablet</h2>
+                    <p>With the growing popularity of tablets, Asus was quick to kill off underperforming products to
+                        tap into new markets. They released the Nexus 7 tablet, branded as a Google device. While not the first company to produce tablets, the popularity of the Nexus 7 is a tribute to its price to performance offerings.
 
-    </div>
-    <div class="box1">
-      <div class="lift">
-        <div class="des">
-          
-            <ul>
-              <li>ASUS Vivobook Go 15 OLED (E1504F)</li>
-              <li>Windows 11 Home - ASUS recommends Windows 11 Pro for business</li>
-              <li> Up to Intel® Core™ i9 HX55 processor</li>
-              <li>Up to NVIDIA® GeForce RTX 4070 GPU </li>
-              <li> Up to 3.2K 120 Hz OLED display</li>
-              <li> Up to 64 GB DDR5 with dual SO-DIMM</li>
-              <li> Up to 2 TB SSD with one M.2 Slot</li>
-              <li> ASUS IceCool Pro thermal technology</li>
-              <li> Dual Thunderbolt™ 4 for up to 40Mbps</li>
-            </ul>
-        </div>
-      </div>
-      <div class="right">
-        <div class="img"> <img src="./img/image6.jpg" alt=""></div>
-        <div class="price"><p>price: 699$</p></div>
-        <button>Buy New</button>
+                        The innovative tablet was immensely popular from its initial launch in 2012, with many retailers running out of stock quickly. Additionally, magazines like Engadget and PC World pointed out the competitive 
+                        pricing and unique benefits of the Nexus 7 tablet.</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-md-12 col-12 ">
+                        <h2> History</h2>
+                        <p style="font-size: 25px; ">
+                            The end of the 1990s was a time of rapid growth for Asus. The company prioritized talent acquisition and research into new technologies. Because of this, they were able to bring radical new technology to market before their competitors. 
 
-      </div>
+                            Asus began trading as a public company in 1996, with an official listing on the Taiwan Stock Exchange. Thanks to Asus, Taiwan became a hub for technology with a reputation for quality components and new development. The company branched out into the mobile computing market with the release of the Asus P6300 laptop in 1997.
 
-    </div>
-  </div>
+                            By 2000, the company opened customer service centers in China, the Netherlands, the United States, Australia, and Japan. With such extensive marketing efforts, the company soon became a household name, especially with further advances in the laptop market. 
+
+                            The early 2000s saw Asus release an array of experimental technologies. It started with the launch of the world’s first ever PDA, or personal digital assistant. An early precursor to the modern smartphone, the PDA was designed to take notes, hold dates in a calendar, and offer functions like a calculator and clock. While not a smashing commercial success, the Asus PDA ran on the Intel PXA250 CPU and was officially named the Asus MyPal. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+      
+      
   <footer>
     <div class="footer_row">
       <div class="logo">
@@ -109,47 +106,68 @@
 
     </div>
   </footer>
-  </div>
+  
 </template>
+<!-- <script>
+   export default{
+    data(){
+      return{
+        [
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail31.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail32.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Acer',
+          price: 700,
+          image: '/src/assets/image/pro_detail33.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
+       
+        },
+        {
+          name: 'Asus',
+          price: 700,
+          image: '/src/assets/image/pro_detail34.jpg',
+          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei'
+
+        }
+        ]
+      }
+    }
+   }
+</script> -->
 <style>
   .container{
-  width: 1024px;
-  height: 100%;
+  width: 100%;
   background-color: rgb(240, 139, 139);
   margin: auto;
 
 }
-.head{
-  height: 200px;
-  width: 100%; 
-  padding: 0px 10px 10px 10px;
- 
+.profile,
+.profile img {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 300px;
+    margin: auto;
 }
-.head img{
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  align-items: center;
+
+h1 {
+    text-align: center;
 }
-.user{
-  display: flex;
-  height: 100px;
-  background-color: blue;
-  margin: 10px;
-}
-.user1, .user2{
-  flex: 50%;
-  background-color: darkcyan;
-  margin: 5px;
-}
-.box-body{
-  width: 100%;
-}
-.box1{
-  display: flex;
-  margin: 5px;
-  padding: 5px;
-  background-color: rgb(178, 156, 156);  
+
+.detail p {
+    padding-top: 60px;
+    font-size: 30px;
 }
 /*footer*/
 .footer_row{

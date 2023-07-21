@@ -12,7 +12,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import Index from "./views/Index.vue";
 import Checkout from "./views/Checkout.vue";
-import Footer from "./views/footer.vue";
+import Footer from "./views/Footer.vue";
 export default {
   data() {
     return {

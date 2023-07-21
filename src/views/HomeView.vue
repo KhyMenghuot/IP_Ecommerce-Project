@@ -4,6 +4,7 @@
     <h1>This is an HOme page</h1>
   </div> -->
   <div class="container">
+    
     <div class="head">
       
       <a-carousel arrows>
@@ -176,7 +177,7 @@ export default defineComponent({
 }
 
 .container{
-  width: 1024px;
+  width: 100%;
   height: 100%;
   background-color:rgb(240, 139, 139);
   margin: auto;
