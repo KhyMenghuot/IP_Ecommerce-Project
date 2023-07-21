@@ -80,7 +80,7 @@
       
       
   <footer>
-    <div class="footer_row">
+    <div class=" footer_row">
       <div class="logo">
         <div class="logo_pic">
           <img src="./img/logo.png" alt="">
@@ -88,7 +88,7 @@
         <h1 style="color: aliceblue;">KMHPC</h1>
         
       </div>
-      <div class="More">
+      <div class="  More">
         <h1>More product</h1>
         <p><a href="#">Asus</a></p>
         <p><a href="#">Lanovo</a></p>
@@ -97,7 +97,7 @@
         
 
       </div>
-      <div class="contact">
+      <div class=" contact">
         <h1>Contact</h1>
         <p>khymenghuot@gmail.com</p>
         <p>phone number: 015201639</p>
