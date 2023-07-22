@@ -13,7 +13,7 @@
         <div class="row " >
           <div class="col-xl-3 col-md-6 col-12 "  v-for=" pro in products" key="product.name">
             <div class="bg-light" style=" text-align: center; margin: 3px; ">
-              <img :src="pro.image">
+              <img :src="pro.imgUrl">
             <div class="des">
               <div class="name" >{{ pro.name }}</div>
               <div class="price" >{{pro.price}}$</div>
@@ -29,7 +29,7 @@
         <div class="row " >
           <div class="col-xl-3 col-md-6 col-12 "  v-for=" pro in products" key="product.name">
             <div class="bg-light" style=" text-align: center; margin: 3px; ">
-              <img :src="pro.image">
+              <img :src="pro.imgUrl">
             <div class="des">
               <div class="name" >{{ pro.name }}</div>
               <div class="price" >{{pro.price}}$</div>
@@ -79,67 +79,67 @@
     return {
       
       products: [
-      
-        {
-          name: 'Acer',
-          price: 700,
-          image: '/src/assets/image/pro_detail31.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-        },
-        {
-          name: 'Asus',
-          price: 700,
-          image: '/src/assets/image/pro_detail32.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-       
-        },
-        {
-          name: 'Acer',
-          price: 700,
-          image: '/src/assets/image/pro_detail33.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-       
-        },
-        {
-          name: 'Asus',
-          price: 700,
-          image: '/src/assets/image/pro_detail34.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei'
-
-        }
-        ,
-       
-        {
-          name: 'Acer',
-          price: 700,
-          image: '/src/assets/image/pro_detail31.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-        },
-        {
-          name: 'Asus',
-          price: 700,
-          image: '/src/assets/image/pro_detail32.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-       
-        },
-        {
-          name: 'Acer',
-          price: 700,
-          image: '/src/assets/image/pro_detail33.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei, '
-       
-        },
-        {
-          name: 'Asus',
-          price: 700,
-          image: '/src/assets/image/pro_detail34.jpg',
-          des: 'ASUSTek Computer Inc. is a Taiwanese multinational computer, phone hardware and electronics manufacturer headquartered in Beitou District, Taipei'
-       
-
-        }
-       
-       
-      ],
+  {
+    "id": 1,
+    "name": "Dell XPS 13 9380",
+    "price": 1080,
+    "imgUrl": "https://m.media-amazon.com/images/I/719tCHXNiXL._AC_UL320_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Apple 13 inch MacBook Air",
+    "price": 799,
+    "imgUrl": "https://m.media-amazon.com/images/I/51-oeeCf1zL._AC_UY218_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lenovo IdeaPad 3",
+    "price": 450,
+    "imgUrl": "https://m.media-amazon.com/images/I/71MFkYd8TTL._AC_UY218_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Acer Spin 3 Convertible Laptop",
+    "price": 176,
+    "imgUrl": "https://m.media-amazon.com/images/I/81H9y1pPW6L._AC_UY218_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "CHUWI HeroBook Pro 14.1 inch",
+    "price": 269,
+    "imgUrl": "https://m.media-amazon.com/images/I/71jDooDQHpL._AC_UY218_.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Ideapad L340",
+    "price": 868,
+    "imgUrl": "https://m.media-amazon.com/images/I/81XvT+ahkoL._AC_UY218_.jpg"
+  },
+  {
+    "id": 7,
+    "name": "HP 2020 Newest 17.3 Inch",
+    "price": 699,
+    "imgUrl": "https://m.media-amazon.com/images/I/61b7mU3bKbL._AC_UY218_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "ASUS ROG Zephyrus Duo",
+    "price": 3699,
+    "imgUrl": "https://m.media-amazon.com/images/I/81e1pXhTE2L._AC_UY218_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Acer Aspire 5 Slim Laptop",
+    "price": 579,
+    "imgUrl": "https://m.media-amazon.com/images/I/71sesDsw95L._AC_UY218_.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Alienware New M15",
+    "price": 1799,
+    "imgUrl": "https://m.media-amazon.com/images/I/7159o5Y0GIL._AC_UL320_.jpg"
+  }
+]
 
     }
     
@@ -150,7 +150,7 @@
       this.$router.push({ path: "/detail", query: {
         name: product.name,
         price: product.price,
-        image: product.image,
+        imgUrl: product.imgUrl,
         des: product.des,
       } });
       console.log('clicked...'+ product);

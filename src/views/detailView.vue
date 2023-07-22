@@ -8,7 +8,7 @@
         </div>
         <div class="col-md-6 col-12">
           <div class="col-12">
-            <img :src="image" alt="">
+            <img :src="imgUrl" alt="">
             
             <h2> Price:{{ price }}</h2>
             <button bnt-peimary>Buy New</button>
@@ -30,7 +30,7 @@
         return {
           name: '',
           price: 0,
-          image: '',
+          imgUrl: '',
           des: '',
         }
     },
@@ -41,7 +41,7 @@
         console.log(params);
         this.name = this.$route.query.name;
         this.price = this.$route.query.price;
-        this.image = this.$route.query.image;
+        this.imgUrl = this.$route.query.imgUrl;
     },
 
  }
