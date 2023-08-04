@@ -110,7 +110,7 @@
                 </div>
                 <h1 style="color: aliceblue;">KMHPC</h1>
         
-            </div>
+              </div>
               <div class=" More">
                 <h1>More product</h1>
                 <p><a href="#">Asus</a></p>
@@ -127,8 +127,8 @@
                 <p>telegram: khymenghuot</p>
               </div>
 
-    </div>
-  </div>
+          </div>
+        </div>
    
   </footer>
   </div>
@@ -179,7 +179,7 @@ export default defineComponent({
 }
 
 .container{
-  width: 100%;
+  width: 110%;
   height: 100%;
   background-color:rgb(240, 139, 139);
   margin: auto;
@@ -200,8 +200,8 @@ export default defineComponent({
 /*footer*/
 .footer_row{
   width: 100%;
-  /* display: flex;
-  justify-content: space-around; */
+   display: flex;
+  justify-content: space-around;
   background-color:black;
 }
  .Contact ,h1,p{

@@ -2,7 +2,7 @@
    <div class="container ">
         
         <div class="profile ">
-            <!-- <img src="../assets/image/logo pic.jpg" alt=" ">  -->
+            <img src="../assets/image/logo pic.jpg" alt=" "> 
             
         </div> 
         <h1 class="name "> KMH Smart shop</h1>
@@ -20,21 +20,13 @@
    </div> 
         <div class="container ">
             <div class="row ">
-                <!-- <div class="col-xl-6 col-md-6 col-12 box1 " v-for=" pro in products" key="product.name>
-                   
-                  <img :src="pro.image">
-                  
-                </div> -->
-                <div class="col-xl-6 col-md-6 col-12 box1 ">
+              
+                
                     <div class="detail ">
-                        <p>Apple iPhone 14 Pro ; Size, 6.1 inches, 91.7 cm2 (~87.0% screen-to-body ratio) ; Resolution, 1179 x 2556 pixels, 19.5:9 ratio (~460 ppi density) ; Protection ...
-                            Internal: 128GB 6GB RAM, 256GB 6GB RAM, ...
-                            Battery: Type
-                            GPS: Yes, with dual-band A-GPS, GLONASS, ...
-                            Battery life: Endurance rating 86h
+                        <p>Enjoy portability and versatility without sacrificing Windows 11 Pro gaming power. The ROG Zephyrus M16 speeds through gaming and multitasking with up to a 13th Gen Intel® Core™ i9-13900H processor. Game with confidence with up to an NVIDIA® GeForce RTX™ 4090 Laptop GPU. With a dedicated MUX Switch, NVIDIA® Advanced Optimus, and G-SYNC support, every game runs at peak performance with no tearing. Move freely to create, stream, and game wherever the mood strikes.
                         </p>
                     </div>
-                </div>
+                
             </div>
                 
             </div> 

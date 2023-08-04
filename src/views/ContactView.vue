@@ -2,7 +2,7 @@
     
   <div class="container ">
         <div class="profile ">
-            <!-- <img src="../assets/image/logo pic.jpg" alt=" ">  -->
+            <img src="../assets/image/logo pic.jpg" alt=" "> 
             
         </div> 
         <h1 class="name ">KMH Shop</h1>

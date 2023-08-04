@@ -15,18 +15,18 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li class="  nav-item outline-primary">
-              <RouterLink to="/" class="nav-link text-white " aria-current="page"><h3>Home</h3> </RouterLink>
+              <RouterLink to="/" class="nav-link text-white active " aria-current="page"><h3>Home</h3> </RouterLink>
             </li>
             <li class="nav-item ">
-              <RouterLink to="/product" class="nav-link text-white "><h3>Product</h3></RouterLink>
+              <RouterLink to="/product" class="nav-link text-white active "><h3>Product</h3></RouterLink>
               
             </li>
             <li class="nav-item">
-              <RouterLink to="/about" class="nav-link text-white  "><h3>About</h3></RouterLink>
+              <RouterLink to="/about" class="nav-link text-white active  "><h3>About</h3></RouterLink>
               
             </li>
             <li class="nav-item ">
-              <router-link to="/Contact" class="nav-link text-white  "><h3>Contact</h3></router-link>
+              <router-link to="/Contact" class="nav-link text-white active "><h3>Contact</h3></router-link>
               
             </li>
           </ul>
@@ -53,7 +53,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 <style>
 
-
+header{
+  
+}
 nav {
   margin: 10px;
   background-color: #E36D6D;
@@ -62,12 +64,20 @@ nav {
   color: white;
 }
 
-nav a.router-link .active {
+nav-link a.router-link :active {
   color: blue;
 }
-nav a.router-link-exact-active:hover {
+nav-link a.router-link-exact-active:hover {
   color: blue;
   background-color: transparent;
+}
+.active :hover{
+  color: blue;
+
+}
+.active :active :hover{
+  color: blue;
+
 }
 /* nav a {
   display: inline-block;

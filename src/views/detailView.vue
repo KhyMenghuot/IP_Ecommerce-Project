@@ -11,7 +11,7 @@
             <img :src="imgUrl" alt="">
             
             <h2> Price:{{ price }}</h2>
-            <button bnt-peimary>Buy New</button>
+            <button @click="cart(pro)" bnt-peimary  class="btn btn-primary" >Buy New</button>
           </div>
         </div>
           
@@ -43,6 +43,16 @@
         this.price = this.$route.query.price;
         this.imgUrl = this.$route.query.imgUrl;
     },
+    methods: {
+    cart(product) {
+      // const data = JSON.stringify(product);
+      this.$router.push({ path: "/Cart", query: {
+        
+      } });
+      console.log('clicked...'+ product);
+
+    }
+  }
 
  }
 </script>
